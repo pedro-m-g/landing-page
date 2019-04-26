@@ -5,8 +5,7 @@
         D &amp; P
       </nuxt-link>
       <div class="links">
-        <nuxt-link to="/signup">Regístrate</nuxt-link>
-        <nuxt-link to="#">Acceder</nuxt-link>
+        <nuxt-link to="/login">Acceder</nuxt-link>
       </div>
     </div>
   </div>

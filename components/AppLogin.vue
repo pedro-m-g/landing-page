@@ -1,9 +1,5 @@
 <template>
-  <form class="app-signup">
-    <div class="input">
-      <label>Nombre completo</label>
-      <input type="text" name="" value="" />
-    </div>
+  <form class="app-login">
     <div class="input">
       <label>Correo electrónico</label>
       <input type="email" name="" value="" />
@@ -13,7 +9,7 @@
       <AppPasswordField />
     </div>
     <button type="submit">
-      Registrar cuenta
+      Acceder
     </button>
   </form>
 </template>

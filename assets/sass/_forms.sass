@@ -37,3 +37,51 @@ textarea
 
   input, textarea
     flex-grow: 1
+
+.app-password-field
+  display: flex
+  flex-grow: 1
+
+  input
+    flex-grow: 1
+    min-width: initial
+
+  .security-indicator
+    flex-grow: 1
+    background-color: #b3b3b3
+    padding: 0 1rem
+    display: flex
+    justify-content: center
+    align-items: center
+    position: relative
+    animation: scanning 3s ease-in-out infinite
+    color: white
+    font-size: 0.8em
+    transition: background-color 1s ease-in-out
+
+    &.danger
+      background-color: #e14545
+
+    &.warning
+      background-color: #ffa000
+
+    &.success
+      background-color: #43a047
+
+    @keyframes scanning
+      0%
+        opacity: 1
+      50%
+        opacity: 0.8
+      100%
+        opacity: 1
+
+  .visibility
+    flex-shrink: 1
+    display: flex
+    justify-content: center
+    align-items: center
+    padding: 0 1rem
+    background-color: #0073C6
+    color: white
+    cursor: pointer
